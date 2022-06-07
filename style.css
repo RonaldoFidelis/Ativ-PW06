@@ -1,0 +1,44 @@
+.box{/*Comandos para alinhar a box no centro da pagina */
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    
+    /* Comando para borda*/
+    border-radius: 5px;
+}
+
+fieldset{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+body{
+    background-color: rgb(41, 124, 124);
+}
+
+legend{
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.entrada{
+    border: 1px solid black;
+    outline: none;
+    color: black;
+    font-size: 12px;
+    padding: 4px;
+
+}
+.btOut{
+    border: 1px solid black;
+    padding: 3.5px;
+    cursor: pointer;
+    background-color: rgb(85, 161, 190);
+}
+button{
+    text-align: center;
+}
